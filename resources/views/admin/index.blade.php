@@ -3,7 +3,7 @@
 @section('title', 'Admin')
 
 @section('content_header')
-    <h1>Bienvenido</h1>
+    <h1 onclick="funcion()">Bienvenido</h1>
 @stop
 
 @section('content')
@@ -12,10 +12,4 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
-@stop
-
-@section('js')
-    <script>
-        console.log('Hi!');
-    </script>
 @stop
